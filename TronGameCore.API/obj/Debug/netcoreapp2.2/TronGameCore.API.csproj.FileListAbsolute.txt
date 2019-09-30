@@ -1,0 +1,14 @@
+D:\Projects\Other\TronGameCore\TronGameCore.API\bin\Debug\netcoreapp2.2\TronGameCore.API.deps.json
+D:\Projects\Other\TronGameCore\TronGameCore.API\bin\Debug\netcoreapp2.2\TronGameCore.API.runtimeconfig.json
+D:\Projects\Other\TronGameCore\TronGameCore.API\bin\Debug\netcoreapp2.2\TronGameCore.API.runtimeconfig.dev.json
+D:\Projects\Other\TronGameCore\TronGameCore.API\bin\Debug\netcoreapp2.2\TronGameCore.API.dll
+D:\Projects\Other\TronGameCore\TronGameCore.API\bin\Debug\netcoreapp2.2\TronGameCore.API.pdb
+D:\Projects\Other\TronGameCore\TronGameCore.API\obj\Debug\netcoreapp2.2\TronGameCore.API.csprojAssemblyReference.cache
+D:\Projects\Other\TronGameCore\TronGameCore.API\obj\Debug\netcoreapp2.2\TronGameCore.API.csproj.CoreCompileInputs.cache
+D:\Projects\Other\TronGameCore\TronGameCore.API\obj\Debug\netcoreapp2.2\TronGameCore.API.RazorAssemblyInfo.cache
+D:\Projects\Other\TronGameCore\TronGameCore.API\obj\Debug\netcoreapp2.2\TronGameCore.API.RazorAssemblyInfo.cs
+D:\Projects\Other\TronGameCore\TronGameCore.API\obj\Debug\netcoreapp2.2\TronGameCore.API.AssemblyInfoInputs.cache
+D:\Projects\Other\TronGameCore\TronGameCore.API\obj\Debug\netcoreapp2.2\TronGameCore.API.AssemblyInfo.cs
+D:\Projects\Other\TronGameCore\TronGameCore.API\obj\Debug\netcoreapp2.2\TronGameCore.API.RazorTargetAssemblyInfo.cache
+D:\Projects\Other\TronGameCore\TronGameCore.API\obj\Debug\netcoreapp2.2\TronGameCore.API.dll
+D:\Projects\Other\TronGameCore\TronGameCore.API\obj\Debug\netcoreapp2.2\TronGameCore.API.pdb

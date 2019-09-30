@@ -1,0 +1,101 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Tron Game Client</title>
+    <meta charset="utf-8" />
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="lib/signalr/dist/browser/signalr.js"></script>
+</head>
+<body>
+
+
+    Start New Game
+    <button id="start-new"> Start New Game</button>
+
+    <canvas id="gameCanvas" width="300" height="300"></canvas>
+
+
+
+    <script type="text/javascript">
+
+        var apiBaseURL = 'http://localhost:49170/';
+
+        var connection = new signalR.HubConnectionBuilder()
+            .withUrl(apiBaseURL + "tronhub")
+            //.withAutomaticReconnect()
+            .configureLogging(signalR.LogLevel.Information)
+            .build();
+
+        connection.on("OnGameOver", (GameOverResponse) => {
+
+            //GameOverResponse.Result
+            //GameOverResponse.FirstPlayerScore;
+
+            //$("gameCanvas")
+
+        });
+
+        connection.on("OnTurnMoved", (TurnMovedResponse) => {
+
+            //TurnMovedResponse.FirstPlayerRow
+            //$("gameCanvas")
+        });
+
+
+        $(function () {
+
+            $('#start-new').on('click', function (e) {
+
+                e.preventDefault();
+
+                startConnection();
+
+                var data = {
+                    gameId: generateUniqueId(),
+                    borderWidth: '30',
+                    borderHeight: '30'
+                };
+
+                $.ajax({
+                    type: 'POST',
+                    url: apiBaseURL + 'api/trongame/start',
+                    contentType: 'application/json; charset=utf-8',
+                    dataType: 'json',
+                    data: JSON.stringify(data),
+                    //crossDomain: true,
+                    success: function (data) {
+                        console.log(data);
+                    },
+                    error: function () {
+                        console.log('Error loading ');
+                    }
+                });
+            })
+        });
+
+        function startConnection() {
+
+            gameId = generateUniqueId();
+
+            connection.start()
+                .then(_ => connection.invoke("AssociateJob", gameId))
+                .catch(err => console.error(err.toString()));
+        }
+
+        function onKeyPressed() {
+
+            connection.invoke("KeyPressed", user, message).catch(err => console.error(err.toString()));
+        }
+
+        function generateUniqueId() {
+
+            var uniqueId = Math.floor(Math.random() * 100) + Date.now();
+
+            return uniqueId;
+        }
+
+    </script>
+
+</body>
+</html>

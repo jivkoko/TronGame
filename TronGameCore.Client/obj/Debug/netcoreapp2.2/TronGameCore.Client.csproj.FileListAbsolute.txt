@@ -1,0 +1,14 @@
+D:\Projects\Other\TronGameCore\TronGameCore.Client\bin\Debug\netcoreapp2.2\TronGameCore.Client.deps.json
+D:\Projects\Other\TronGameCore\TronGameCore.Client\bin\Debug\netcoreapp2.2\TronGameCore.Client.runtimeconfig.json
+D:\Projects\Other\TronGameCore\TronGameCore.Client\bin\Debug\netcoreapp2.2\TronGameCore.Client.runtimeconfig.dev.json
+D:\Projects\Other\TronGameCore\TronGameCore.Client\bin\Debug\netcoreapp2.2\TronGameCore.Client.dll
+D:\Projects\Other\TronGameCore\TronGameCore.Client\bin\Debug\netcoreapp2.2\TronGameCore.Client.pdb
+D:\Projects\Other\TronGameCore\TronGameCore.Client\obj\Debug\netcoreapp2.2\TronGameCore.Client.csprojAssemblyReference.cache
+D:\Projects\Other\TronGameCore\TronGameCore.Client\obj\Debug\netcoreapp2.2\TronGameCore.Client.csproj.CoreCompileInputs.cache
+D:\Projects\Other\TronGameCore\TronGameCore.Client\obj\Debug\netcoreapp2.2\TronGameCore.Client.RazorAssemblyInfo.cache
+D:\Projects\Other\TronGameCore\TronGameCore.Client\obj\Debug\netcoreapp2.2\TronGameCore.Client.RazorAssemblyInfo.cs
+D:\Projects\Other\TronGameCore\TronGameCore.Client\obj\Debug\netcoreapp2.2\TronGameCore.Client.AssemblyInfoInputs.cache
+D:\Projects\Other\TronGameCore\TronGameCore.Client\obj\Debug\netcoreapp2.2\TronGameCore.Client.AssemblyInfo.cs
+D:\Projects\Other\TronGameCore\TronGameCore.Client\obj\Debug\netcoreapp2.2\TronGameCore.Client.RazorTargetAssemblyInfo.cache
+D:\Projects\Other\TronGameCore\TronGameCore.Client\obj\Debug\netcoreapp2.2\TronGameCore.Client.dll
+D:\Projects\Other\TronGameCore\TronGameCore.Client\obj\Debug\netcoreapp2.2\TronGameCore.Client.pdb
